@@ -1,4 +1,4 @@
-package by.htp.les2.main;
+п»їpackage by.htp.les2.main;
 
 public class Task2 {
 
@@ -9,11 +9,11 @@ public class Task2 {
 		double d = 3;
 		
 		if (c == 0 || d == 0) {
-			System.out.print("Нельзя делить на ноль!");
+			System.out.print("РќРµР»СЊР·СЏ РґРµР»РёС‚СЊ РЅР° РЅРѕР»СЊ!");
 		}
 		else {
 			double rez = a/c*b/d - (a*b - c)/c/d;
-			System.out.print("Результат: " + rez);
+			System.out.print("Р РµР·СѓР»СЊС‚Р°С‚: " + rez);
 		}
 	}
 

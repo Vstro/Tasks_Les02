@@ -1,4 +1,4 @@
-package by.htp.les2.main;
+ï»¿package by.htp.les2.main;
 
 public class Task6 {
 
@@ -7,15 +7,15 @@ public class Task6 {
 		double angle2 = 35.5;
 		
 		if (angle1 + angle2 < 180) {
-			System.out.print("Òàêîé òðåóãîëüíèê ñóùåñòâóåò ");
+			System.out.print("Ð¢Ð°ÐºÐ¾Ð¹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚ ");
 			if (angle1 == 90 || angle2 == 90 || (angle1 + angle2 == 90)) {
-				System.out.print("è îí - ïðÿìîóãîëüíûé!");
+				System.out.print("Ð¸ Ð¾Ð½ - Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ñ‹Ð¹!");
 			} else {
-				System.out.print("è îí - íå ïðÿìîóãîëüíûé!");
+				System.out.print("Ð¸ Ð¾Ð½ - Ð½Ðµ Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ñ‹Ð¹!");
 			}
 		}
 		else {
-			System.out.print("Òàêîãî òðåóãîëüíèêà íå ñóùåñòâóåò!");
+			System.out.print("Ð¢Ð°ÐºÐ¾Ð³Ð¾ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ° Ð½Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚!");
 		}
 	}
 

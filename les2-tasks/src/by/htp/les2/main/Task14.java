@@ -1,4 +1,4 @@
-package by.htp.les2.main;
+п»їpackage by.htp.les2.main;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Task14 {
 		int fact = 1;
 		
 		Scanner in = new Scanner(System.in);
-        System.out.print("Введите натуральное число: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ: ");
         x = in.nextInt();
         in.close();
 		

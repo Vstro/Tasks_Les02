@@ -1,4 +1,4 @@
-package by.htp.les2.main;
+ï»¿package by.htp.les2.main;
 
 public class Task7 {
 
@@ -17,7 +17,7 @@ public class Task7 {
 		if (c < 0) {
 			counter++;
 		}
-		System.out.println("Êîëè÷åñòâî îòðèöàòåëüíûé ñðåäè ÷èñåë " + a + ", " + b + " è " + c + ": " + counter);
+		System.out.println("ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ð¹ ÑÑ€ÐµÐ´Ð¸ Ñ‡Ð¸ÑÐµÐ» " + a + ", " + b + " Ð¸ " + c + ": " + counter);
 	}
 
 }

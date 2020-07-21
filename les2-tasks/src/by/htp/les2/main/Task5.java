@@ -1,4 +1,4 @@
-package by.htp.les2.main;
+п»їpackage by.htp.les2.main;
 
 public class Task5 {
 
@@ -6,7 +6,7 @@ public class Task5 {
 		double a = 13.12;
 		double b = -7.888;
 		
-		System.out.print("Наименьшее из " + a + " и " + b + ": ");
+		System.out.print("РќР°РёРјРµРЅСЊС€РµРµ РёР· " + a + " Рё " + b + ": ");
 		System.out.print((a < b) ? a : b);
 	}
 

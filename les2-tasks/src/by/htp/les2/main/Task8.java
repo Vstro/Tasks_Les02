@@ -1,4 +1,4 @@
-package by.htp.les2.main;
+ï»¿package by.htp.les2.main;
 
 public class Task8 {
 
@@ -11,9 +11,9 @@ public class Task8 {
 
 		if ((x <= A && y <= B) || (y <= A && x <= B) || (x <= A && z <= B) || (z <= A && x <= B) || 
 				(z <= A && y <= B) || (y <= A && z <= B)) {
-			System.out.println("Êèðïè÷ ïðîéä¸ò ÷åðåç îòâåðñòèå!");
+			System.out.println("ÐšÐ¸Ñ€Ð¿Ð¸Ñ‡ Ð¿Ñ€Ð¾Ð¹Ð´Ñ‘Ñ‚ Ñ‡ÐµÑ€ÐµÐ· Ð¾Ñ‚Ð²ÐµÑ€ÑÑ‚Ð¸Ðµ!");
 		} else {
-			System.out.println("Êèðïè÷ íå ïðîéä¸ò ÷åðåç îòâåðñòèå!");
+			System.out.println("ÐšÐ¸Ñ€Ð¿Ð¸Ñ‡ Ð½Ðµ Ð¿Ñ€Ð¾Ð¹Ð´Ñ‘Ñ‚ Ñ‡ÐµÑ€ÐµÐ· Ð¾Ñ‚Ð²ÐµÑ€ÑÑ‚Ð¸Ðµ!");
 		}
 	}
 

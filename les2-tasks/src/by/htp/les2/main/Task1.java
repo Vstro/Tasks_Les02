@@ -1,4 +1,4 @@
-package by.htp.les2.main;
+ï»¿package by.htp.les2.main;
 
 public class Task1 {
 
@@ -8,14 +8,14 @@ public class Task1 {
 		double c = 4;
 		
 		if (b*b - 4*a*c < 0) { 		
-			System.out.print("Íåëüçÿ âû÷èñëèòü äåéñòâèòåëüíûé êîðåíü èç îòðèöàòåëüíîãî ÷èñëà!");
+			System.out.print("ÐÐµÐ»ÑŒÐ·Ñ Ð²Ñ‹Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÑŒ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ð¹ ÐºÐ¾Ñ€ÐµÐ½ÑŒ Ð¸Ð· Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°!");
 		}
 		else if (a == 0) {
-			System.out.print("Íåëüçÿ äåëèòü íà íîëü!");
+			System.out.print("ÐÐµÐ»ÑŒÐ·Ñ Ð´ÐµÐ»Ð¸Ñ‚ÑŒ Ð½Ð° Ð½Ð¾Ð»ÑŒ!");
 		}
 		else {
 			double rez = (b + Math.sqrt(b*b - 4*a*c))/2/a - Math.pow(a, 3)*c + Math.pow(b, -2);
-			System.out.print("Ðåçóëüòàò: " + rez);
+			System.out.print("Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " + rez);
 		}
 	}
 
