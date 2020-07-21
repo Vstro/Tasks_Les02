@@ -8,6 +8,7 @@ public class Task14 {
 		int x;
 		int i = 2;
 		int fact = 1;
+		
 		Scanner in = new Scanner(System.in);
         System.out.print("¬ведите натуральное число: ");
         x = in.nextInt();

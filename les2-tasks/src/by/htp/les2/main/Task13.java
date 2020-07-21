@@ -8,6 +8,7 @@ public class Task13 {
 		int x;
 		int i = 1;
 		int sum = 0;
+		
 		Scanner in = new Scanner(System.in);
         System.out.print("¬ведите натуральное число: ");
         x = in.nextInt();
